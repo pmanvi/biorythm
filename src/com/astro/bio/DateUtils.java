@@ -134,6 +134,7 @@ public class DateUtils {
     }
 
     public static void main(String[] args) {
+        // Testing code
         Date d1 = new Date(1976, 7, 29);
         // d1=new Date(2008,7,1);
         Date d2 = new Date(2008, 7, 2);
