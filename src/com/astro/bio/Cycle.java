@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.TimeZone;
 
 public enum Cycle {
+    
 
     Emotional, Intellectual, Physical;
 
@@ -22,7 +23,11 @@ public enum Cycle {
         }
         return ret;
     }
-   
+    /**
+     * gets the percentage of cycle
+     * @param days
+     * @return 
+     */
     public double percent(long days) {
         double val = days % duration() * 100;
         double d = val / duration();
